@@ -13,9 +13,6 @@ driver = webdriver.Chrome(service=service)
 # Open Google
 driver.get('https://google.com')
 
-# Input search
-# driver.get(input('Paste URL which you want to search: '))
-
 # Setup WebDriverWait
 wait = WebDriverWait(driver, 10)
 
