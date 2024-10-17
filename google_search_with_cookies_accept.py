@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 
 # Setup ChromeDriver service
-service = Service(executable_path='/Users/chapi/Coding/GitHub24/WebScraping/SimpleSeleniumProject/SimpleSeleniumProject/chromedriver')
+service = Service(executable_path='/Users/chapi/Coding/GitHub24/WebScraping/Selenium/chromedriver')
 driver = webdriver.Chrome(service=service)
 
 # Open Google
@@ -53,6 +53,8 @@ try:
     # input_search_element = 'bitcoin current price'
     dash_print_func()
     
+    input_element.clear()
+
     input_element.send_keys(input_search_element, Keys.ENTER)
     print(f'Searching for: {input_search_element[:26]}')
     dash_print_func()
