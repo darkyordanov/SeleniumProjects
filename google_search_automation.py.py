@@ -4,7 +4,16 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+
 import time
+
+'''
+This Python script automates a Google search using Selenium.
+It opens the Google homepage, accepts the cookie consent pop-up, and allows the user to input a search query.
+The script finds the first search result and clicks on it, providing output about each step.
+It includes wait times for elements to load and interact with the page efficiently.
+The script also incorporates custom print formatting for better readability of actions performed.
+'''
 
 # Setup ChromeDriver service
 service = Service(executable_path='/Users/chapi/Coding/GitHub24/WebScraping/Selenium/chromedriver')

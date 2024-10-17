@@ -5,6 +5,13 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
+'''
+This Python script automates the popular online game “Cookie Clicker” using Selenium.
+It opens the game, accepts the cookie consent pop-up, selects the English language, and continuously clicks the cookie to gather points.
+As the cookie count increases, the script also checks the available products and purchases them if the player has enough cookies.
+The bot runs in an infinite loop to maximize cookie production, simulating gameplay without manual interaction.
+'''
+
 service = Service(executable_path='/Users/chapi/Coding/GitHub24/WebScraping/Selenium/chromedriver')
 driver = webdriver.Chrome(service=service)
 

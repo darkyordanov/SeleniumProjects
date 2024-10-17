@@ -7,6 +7,12 @@ from selenium.webdriver.support import expected_conditions as EC
 
 import time
 
+'''
+This Python script automates a Google search using Selenium WebDriver.
+It opens Google, handles cookie consent by rejecting all cookies, then searches for “bitcoin current price” and clicks on the first search result related to Binance.
+The script waits for necessary elements to load using explicit waits and closes the browser after a 20-second delay.
+'''
+
 # https://sites.google.com/chromium.org/driver/
 
 service = Service(executable_path='/Users/chapi/Coding/GitHub24/WebScraping/Selenium/chromedriver')
