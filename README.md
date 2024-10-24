@@ -1,6 +1,5 @@
 # SeleniumProjects✅
 
-**Repository Description**
 This repository contains Selenium automation scripts designed to interact with various web pages, such as Google searches and the Cookie Clicker game. Each script uses Python and Selenium WebDriver to automate browser tasks like handling cookie consent pop-ups, performing searches, and interacting with webpage elements.
 
 ### google_search_automation.py
